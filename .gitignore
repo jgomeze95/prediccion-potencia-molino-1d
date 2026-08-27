@@ -1,0 +1,24 @@
+# Datos industriales
+1D_POT*.csv
+dataset_modelamiento_15s.csv
+
+# Resultados y modelos entrenados
+resultados_*/
+*.zip
+*.pt
+*.ckpt
+*.pth.tar
+*.joblib
+
+# Archivos temporales de Python y Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Configuración local y credenciales
+.env
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

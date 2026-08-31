@@ -79,9 +79,9 @@ Cada notebook contiene:
 | XGBoost | 0,005115 | 0,008055 | 0,223616 | 0,880769 |
 | ARIMAX | 0,005337 | 0,007901 | 0,232805 | 0,885277 |
 
-En el horizonte exacto de 15 minutos, TFT redujo el MAE de persistencia en 4,62 %, XGBoost en 2,01 %, mientras que ARIMAX presentó un MAE 9,54 % superior.
+En el horizonte exacto de 15 minutos, TFT obtuvo un MAE de 0,007504 MW, frente a 0,008361 MW de persistencia, lo que representa una reducción de 10,26 %. XGBoost redujo el MAE de persistencia en 2,01 %, mientras que ARIMAX presentó un MAE 9,54 % superior.
 
-El bootstrap pareado indicó que la ventaja global de TFT frente a persistencia fue pequeña y no concluyente. Por ello, los resultados se interpretan como evidencia de competitividad predictiva y no como demostración de superioridad estadística global.
+El bootstrap pareado por trayectoria estimó una diferencia media de MAE de 0,000350 MW a favor de TFT, con un intervalo de confianza del 95 % de [0,000018; 0,000669] MW, que no incluyó cero. Por tanto, durante el periodo evaluado, la mejora global de TFT frente a persistencia estuvo estadísticamente respaldada, aunque su relevancia operacional debe confirmarse en periodos adicionales y mediante validación en modo sombra.
 
 ## Requisitos
 
